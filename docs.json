@@ -1,0 +1,552 @@
+{
+    "Field": [
+        {
+            "SystemField": true,
+            "FieldName": "DWDOCID",
+            "FieldLabel": "Document ID",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": 4000,
+            "ItemElementName": "Int"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWDOCSIZE",
+            "FieldLabel": "Document size",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": 36416,
+            "ItemElementName": "Int"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWSTOREUSER",
+            "FieldLabel": "Stored by",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": "MALUOCH",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWSTOREDATETIME",
+            "FieldLabel": "Stored on",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": "/Date(1645511312000)/",
+            "ItemElementName": "DateTime"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWEXTENSION",
+            "FieldLabel": "File type",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": ".pdf",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWMODUSER",
+            "FieldLabel": "Modified by",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": "ALFREDWA",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWMODDATETIME",
+            "FieldLabel": "Modified on",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": "/Date(1645925157000)/",
+            "ItemElementName": "DateTime"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWSECTIONCOUNT",
+            "FieldLabel": "Section count",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": 1,
+            "ItemElementName": "Int"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWPAGECOUNT",
+            "FieldLabel": "Section count",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": 1,
+            "ItemElementName": "Int"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "POLICY_NUMBER",
+            "FieldLabel": "Policy Number",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "CLAIM_NUMBER",
+            "FieldLabel": "Claim Number",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "THK/C/503/001457/21",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "INTERMEDIARY_NAME",
+            "FieldLabel": "Payee Name",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "MARGARET NYAGUTHIE WACHERA",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "INTERMEDIARY_TYPE",
+            "FieldLabel": "Payment Reason",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_TYPE",
+            "FieldLabel": "Document Type",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "CURRENCY",
+            "FieldLabel": "Currency",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "INVOICE_NUMBER",
+            "FieldLabel": "Invoice Number",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "CHEQUE_NUMBER",
+            "FieldLabel": "CN Number",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "CN10615",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_MODE",
+            "FieldLabel": "Payment Type",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "Batch Payment",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "FINANCE_OFFICER",
+            "FieldLabel": "Finance Officer",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_STATUS",
+            "FieldLabel": "Payment Status",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "CREDIT_CONTROL_OFFICER",
+            "FieldLabel": "Credit Control Officer",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "CREDIT_CONTROL_STATUS",
+            "FieldLabel": "Credit Control Status",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "FINANCE_MANAGER",
+            "FieldLabel": "Finance Manager",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "FINANCE_MANAGER_STATUS",
+            "FieldLabel": "Finance Manager Status",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "FINANCE_MANAGER_REJECT_REASON",
+            "FieldLabel": "Finance Manager Reject Reason",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "MODULE_NAME",
+            "FieldLabel": "Module Name",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "DOCUMENT_DESCRIPTION",
+            "FieldLabel": "Document Description",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "TQ_USERNAME",
+            "FieldLabel": "TQ Username",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "TYPE_OF_TRANSFER",
+            "FieldLabel": "Type of Transfer",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "EFT_NUMBER",
+            "FieldLabel": "EFT Number",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "SIGNATORY_APPROVER",
+            "FieldLabel": "Signatory 1 Approver",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "SIGNATORY_APPROVAL",
+            "FieldLabel": "Signatory 1 Approval",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "SIGNATORY_2_APPROVER",
+            "FieldLabel": "Signatory 2 Approver",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "SIGNATORY_2_APPROVAL",
+            "FieldLabel": "Signatory 2 Approval",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "FILE_TYPE",
+            "FieldLabel": "File Type",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "Payment Voucher",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "TRANSACTION_TYPE",
+            "FieldLabel": "Transaction Type",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "EFT",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "BUSINESS_UNIT",
+            "FieldLabel": "Business Unit",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "BATCH_STATUS",
+            "FieldLabel": "Batch Status",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "Batched",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "BATCH_REJECT_REASON",
+            "FieldLabel": "Batch Reject Reason",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_UNIT",
+            "FieldLabel": "Payment Unit",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "INTERMEDIARY_NAME1",
+            "FieldLabel": "Intermediary Name",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "INTERMEDIARY_TYPE1",
+            "FieldLabel": "Intermediary Type",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "BRANCH",
+            "FieldLabel": "Branch",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "UNDERWRITER",
+            "FieldLabel": "Business Analyst",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "BRANCH_MANAGER",
+            "FieldLabel": "Branch Manager",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "BRANCH_MANAGER_APPROVAL",
+            "FieldLabel": "Branch Manager Approval",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PREMIUM_STATUS",
+            "FieldLabel": "Premium Status",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "ENDORSEMENT_NUMBER",
+            "FieldLabel": "Endorsement Number",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "DEBIT_NOTE_NUMBER",
+            "FieldLabel": "Debit Note Number",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "SIGNATORY_1_COMMENTS",
+            "FieldLabel": "Signatory 1 Comments",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "SIGNATORY_2_COMMENTS",
+            "FieldLabel": "Signatory 2 Comments",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "ACTION_BY",
+            "FieldLabel": "Action By",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "REFUNDABLE_AMOUNT",
+            "FieldLabel": "Refundable Amount",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "CREDIT_CONTROL_COMMENTS",
+            "FieldLabel": "Credit Control Comments",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "RAISED_BY",
+            "FieldLabel": "Raised By",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_PROCESS",
+            "FieldLabel": "Payment Process",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_METHOD",
+            "FieldLabel": "Payment Method",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "REFERENCE_NUMBER",
+            "FieldLabel": "Reference Number",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_REQUISITION_NUMBER",
+            "FieldLabel": "Payment Requisition Number",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "2022338807",
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "FMS_PROCESS",
+            "FieldLabel": "FMS Process",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "TQ_STATUS",
+            "FieldLabel": "TQ Status",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "String"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "PAYMENT_DATE",
+            "FieldLabel": "Payment Date",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "Date"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "AMOUNT1",
+            "FieldLabel": "Amount ",
+            "IsNull": false,
+            "ReadOnly": false,
+            "Item": "7000.00",
+            "ItemElementName": "Decimal"
+        },
+        {
+            "SystemField": false,
+            "FieldName": "AMOUNT_REFUNDED",
+            "FieldLabel": "Amount Refunded",
+            "IsNull": true,
+            "ReadOnly": false,
+            "ItemElementName": "Decimal"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWDISK",
+            "FieldLabel": "Disk number",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": 1,
+            "ItemElementName": "Int"
+        },
+        {
+            "SystemField": true,
+            "FieldName": "DWDISKNO",
+            "FieldLabel": "Disk number",
+            "IsNull": false,
+            "ReadOnly": true,
+            "Item": 1,
+            "ItemElementName": "Int"
+        }
+    ]
+}
