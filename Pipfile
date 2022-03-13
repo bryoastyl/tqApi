@@ -9,6 +9,7 @@ djangorestframework = "*"
 environ = "*"
 requests = "*"
 django-environ = "*"
+django-crontab = "*"
 
 [dev-packages]
 

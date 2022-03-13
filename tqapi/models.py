@@ -14,7 +14,7 @@ class TqBaseModel(models.Model):
 
 
 class Docuware(TqBaseModel):
-    Document_ID = models.CharField(max_length=250, blank=True, null=True)
+    Document_ID = models.CharField(max_length=250, primary_key=True)
     Payee_Name = models.CharField(max_length=250, blank=True, null=True)
     Payment_Requisition_Number = models.CharField(
         max_length=250, blank=True, null=True)
