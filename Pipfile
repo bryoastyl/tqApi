@@ -10,6 +10,10 @@ environ = "*"
 requests = "*"
 django-environ = "*"
 django-crontab = "*"
+django-rest-knox = "*"
+mysqlclient = "*"
+psycopg2-binary = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 

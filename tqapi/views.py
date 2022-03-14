@@ -8,6 +8,8 @@ from tqapi import cron
 from .serializers import TqApiSerializer
 from rest_framework import viewsets, status
 from rest_framework.response import Response
+from knox.auth import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 
 import os
 from django.shortcuts import render
@@ -20,7 +22,8 @@ class TqApiViewSet(viewsets.ViewSet):
     """
     A simple ViewSet for listing or retrieving.
     """
-
+    authentication_classes = [TokenAuthentication]
+    permission_classes = [IsAuthenticated]
     serializer_class = TqApiSerializer
 
     def list(self, request):
