@@ -28,8 +28,8 @@ class TqApiViewSet(viewsets.ViewSet):
 
     def list(self, request):
         cron.get_docs()
-        queryset = Docuware.objects.exclude(
-            Q(Payment_Requisition_Number__gt=1) & Q(TQ_Status='PENDING') | Q(TQ_Status='COMPLETED'))
+        queryset = Docuware.objects.exclude((Q(Payment_Requisition_Number__gt=1) & Q(
+            TQ_Status='PENDING')) | Q(TQ_Status__in=['COMPLETED', '|']))
         serializer = self.serializer_class(
             queryset, many=True, context={'request': request})
         return Response(dict(success=True, data=serializer.data, message="All items"))
