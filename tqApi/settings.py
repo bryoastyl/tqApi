@@ -36,7 +36,8 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['192.168.1.54']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '172.16.0.47']
 
 
 # Application definition
@@ -174,12 +175,6 @@ REST_KNOX = {
 
 CRONJOBS = [
     ('* * * * *', 'tqapi.cron.py')
-]
-
-# CORS config
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8000",
-    "http://127.0.0.1:8000",
 ]
 
 CORS_ALLOW_HEADERS = [
