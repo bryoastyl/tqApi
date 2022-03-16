@@ -39,9 +39,9 @@ def get_docs():
             if field["FieldLabel"] == "TQ Status":
                 TQ_Status = (field.get("Item", "|"))
 
-        doc = Docuware(Document_ID=Document_ID, Amount=Amount, Payee_Name=Payee_Name,
-                       Payment_Requisition_Number=Payment_Requisition_Number, FMS_Process=FMS_Process, TQ_Status=TQ_Status)
-        doc.save()
+        # doc = Docuware(Document_ID=Document_ID, Amount=Amount, Payee_Name=Payee_Name,
+        #                Payment_Requisition_Number=Payment_Requisition_Number, FMS_Process=FMS_Process, TQ_Status=TQ_Status)
+        # doc.save()
 
 
 get_docs()
